@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Stop the Global Gag Rule"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - HER.qmd
+
+format:
+  html:
+    theme: quartz
+    css: styles.css
+    toc: true
+
+editor: visual
+
